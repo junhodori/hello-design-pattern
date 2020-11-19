@@ -1,4 +1,5 @@
 package pattern.behavioral.state;
 
-public class State {
+public interface State {
+    public void button();
 }
